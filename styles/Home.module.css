@@ -142,6 +142,8 @@
   width: 180px;
   text-align: center;
   border-radius: 9999px;
+  background: linear-gradient(135.91deg, rgb(176, 111, 216) 29.97%, rgb(89, 122, 238) 99.26%);
+  backdrop-filter: blur(50px);
 }
 
 .mainButton:hover {

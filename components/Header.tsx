@@ -15,7 +15,7 @@ export default function Header() {
         <div>
           <Link href="/" passHref role="button">
             <img
-              src={`/logo.png`}
+              src={`https://app.banklessacademy.com/images/BanklessAcademy.svg`}
               alt="Thirdweb Logo"
               width={135}
               style={{ cursor: "pointer" }}

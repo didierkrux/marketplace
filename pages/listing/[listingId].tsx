@@ -31,7 +31,7 @@ const ListingPage: NextPage = () => {
 
   // Initialize the marketplace contract
   const { contract: marketplace } = useContract(
-    "0x277C0FB19FeD09c785448B8d3a80a78e7A9B8952", // Your marketplace contract address here
+    process.env.NEXT_PUBLIC_MARKETPLACE_CONTRACT_ADDRESS, // Your marketplace contract address here
     "marketplace"
   );
 
@@ -144,7 +144,7 @@ const ListingPage: NextPage = () => {
             >
               Buy
             </button>
-            <p style={{ color: "grey" }}>|</p>
+            {/* <p style={{ color: "grey" }}>|</p>
             <div
               style={{
                 display: "flex",
@@ -172,7 +172,7 @@ const ListingPage: NextPage = () => {
               >
                 Make Offer
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
